@@ -25,7 +25,7 @@ export function CartModal({ isOpen, onClose }: CartModalProps) {
     message += `Total: ₦${getTotalPrice().toLocaleString()}\n\n`;
     message += "Please let me know the next steps. Thank you!";
 
-    window.open(`https://wa.me/2348123456789?text=${encodeURIComponent(message)}`, '_blank');
+    window.open(`https://wa.me/2348109368514?text=${encodeURIComponent(message)}`, '_blank');
   };
 
   const handleSendViaEmail = () => {
@@ -43,7 +43,7 @@ export function CartModal({ isOpen, onClose }: CartModalProps) {
     body += `Total: ₦${getTotalPrice().toLocaleString()}%0D%0A%0D%0A`;
     body += "Please let me know the next steps. Thank you!";
 
-    window.location.href = `mailto:daniel@example.com?subject=Service Request&body=${body}`;
+    window.location.href = `mailto:jegbefumhendaniel@gmail.com?subject=Service Request&body=${body}`;
   };
 
   return (
@@ -70,7 +70,7 @@ export function CartModal({ isOpen, onClose }: CartModalProps) {
               {/* Header */}
               <div className="flex items-center justify-between mb-6">
                 <div className="flex items-center gap-3">
-                  <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-orange-500 rounded-xl flex items-center justify-center">
+                  <div className="w-12 h-12 bg-linear-to-br from-purple-500 to-orange-500 rounded-xl flex items-center justify-center">
                     <ShoppingBag className="w-6 h-6 text-white" />
                   </div>
                   <div>
@@ -145,7 +145,7 @@ export function CartModal({ isOpen, onClose }: CartModalProps) {
                   </div>
 
                   {/* Total */}
-                  <div className="bg-gradient-to-r from-purple-500/20 to-orange-500/20 border border-purple-500/30 rounded-xl p-6 mb-6">
+                  <div className="bg-linear-to-r from-purple-500/20 to-orange-500/20 border border-purple-500/30 rounded-xl p-6 mb-6">
                     <div className="flex items-center justify-between mb-4">
                       <span className="text-lg text-white">Total Amount:</span>
                       <span className="text-3xl text-white font-bold">₦{getTotalPrice().toLocaleString()}</span>
@@ -157,14 +157,14 @@ export function CartModal({ isOpen, onClose }: CartModalProps) {
                   <div className="grid grid-cols-2 gap-4 mb-4">
                     <button
                       onClick={handleSendViaWhatsApp}
-                      className="bg-gradient-to-r from-green-600 to-green-700 text-white px-6 py-4 rounded-xl flex items-center justify-center gap-2 hover:shadow-xl hover:shadow-green-500/50 transition-all duration-300"
+                      className="bg-linear-to-r from-green-600 to-green-700 text-white px-6 py-4 rounded-xl flex items-center justify-center gap-2 hover:shadow-xl hover:shadow-green-500/50 transition-all duration-300"
                     >
                       <MessageCircle className="w-5 h-5" />
                       Send via WhatsApp
                     </button>
                     <button
                       onClick={handleSendViaEmail}
-                      className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-6 py-4 rounded-xl flex items-center justify-center gap-2 hover:shadow-xl hover:shadow-purple-500/50 transition-all duration-300"
+                      className="bg-linear-to-r from-purple-600 to-pink-600 text-white px-6 py-4 rounded-xl flex items-center justify-center gap-2 hover:shadow-xl hover:shadow-purple-500/50 transition-all duration-300"
                     >
                       <Mail className="w-5 h-5" />
                       Send via Email
