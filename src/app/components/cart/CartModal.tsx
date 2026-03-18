@@ -25,7 +25,7 @@ export function CartModal({ isOpen, onClose }: CartModalProps) {
     message += `Total: ₦${getTotalPrice().toLocaleString()}\n\n`;
     message += "Please let me know the next steps. Thank you!";
 
-    window.open(`https://wa.me/2348109368514?text=${encodeURIComponent(message)}`, '_blank');
+    window.open(`https://wa.me/2348123456789?text=${encodeURIComponent(message)}`, '_blank');
   };
 
   const handleSendViaEmail = () => {
@@ -43,7 +43,7 @@ export function CartModal({ isOpen, onClose }: CartModalProps) {
     body += `Total: ₦${getTotalPrice().toLocaleString()}%0D%0A%0D%0A`;
     body += "Please let me know the next steps. Thank you!";
 
-    window.location.href = `mailto:jegbefumhendaniel@gmail.com?subject=Service Request&body=${body}`;
+    window.location.href = `mailto:daniel@example.com?subject=Service Request&body=${body}`;
   };
 
   return (
