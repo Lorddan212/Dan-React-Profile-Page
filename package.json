@@ -1,5 +1,5 @@
 {
-  "name": "dan-luxurious-profile-page",
+  "name": "dan-react-profile-page",
   "private": true,
   "version": "0.0.1",
   "type": "module",
@@ -54,7 +54,6 @@
     "react-dnd-html5-backend": "16.0.1",
     "react-dom": "19.2.4",
     "react-hook-form": "7.71.1",
-    "react-popper": "2.3.0",
     "react-resizable-panels": "4.6.4",
     "react-responsive-masonry": "2.7.1",
     "react-slick": "0.31.0",

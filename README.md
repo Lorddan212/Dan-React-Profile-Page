@@ -1,11 +1,4 @@
 
-# Luxurious Personal Profile Page
-  
-  This is a code bundle for Luxurious Personal Profile Page. The original project is available at <https://www.figma.com/design/to51okVjmz0kbbw46LXL6K/Luxurious-Personal-Profile-Page>.
-  
-## Running the code
-  
-  Run `npm i` to install the dependencies.
-  
-  Run `npm run dev` to start the development server.
-  
+# Daniel Jegbefumhen React Profile Page
+
+This project is a React-based profile page for Daniel Jegbefumhen, showcasing his skills, experience, and contact information. The page is designed to be responsive and visually appealing, making it easy for visitors to learn more about Daniel Jegbefumhen and get in touch with him.
